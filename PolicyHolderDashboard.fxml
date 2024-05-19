@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JavaFiles.PolicyHolderDashboardController">
+    <TableView fx:id="dependentTable">
+        <columns>
+            <TableColumn fx:id="userIdColumn" text="User ID"/>
+            <TableColumn fx:id="usernameColumn" text="Username"/>
+            <TableColumn fx:id="emailColumn" text="Email"/>
+            <TableColumn fx:id="phoneColumn" text="Phone"/>
+            <TableColumn fx:id="addressColumn" text="Address"/>
+            <TableColumn fx:id="roleIdColumn" text="Role ID"/>
+            <TableColumn fx:id="claimIdColumn" text="Claim ID"/>
+            <TableColumn fx:id="claimStatusColumn" text="Claim Status"/>
+            <TableColumn fx:id="claimDescriptionColumn" text="Claim Description"/>
+            <TableColumn fx:id="claimDateFiledColumn" text="Claim Date Filed"/>
+            <TableColumn fx:id="claimDateProcessedColumn" text="Claim Date Processed"/>
+            <TableColumn fx:id="documentIdColumn" text="Document ID"/>
+            <TableColumn fx:id="originalNameColumn" text="Original Document Name"/>
+            <TableColumn fx:id="documentUploadDateColumn" text="Document Upload Date"/>
+            <TableColumn fx:id="relationshipColumn" text="Relationship"/>
+            <TableColumn fx:id="dependentRateColumn" text="Dependent Rate"/>
+            <TableColumn fx:id="actionColumn" text="Action"/>
+            <TableColumn fx:id="entityAffectedColumn" text="Claim or Document"/>
+            <TableColumn fx:id="logTimestampColumn" text="Log Timestamp"/>
+            <TableColumn fx:id="paymentIdColumn" text="Payment ID"/>
+            <TableColumn fx:id="paymentYearColumn" text="Payment Year"/>
+            <TableColumn fx:id="totalAmountColumn" text="Total Amount"/>
+            <TableColumn fx:id="roleNameColumn" text="Role Name"/>
+        </columns>
+    </TableView>
+</VBox>
